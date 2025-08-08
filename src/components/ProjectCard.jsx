@@ -1,7 +1,7 @@
 //rafce
 import React,{useState} from 'react'
 import { Card,Modal } from 'react-bootstrap'
-import { SERVER_BASE_URL } from '../services/serverURL';
+import { SERVER_BASE_URL } from '../services/serverUrl';
 
 
 const ProjectCard = ({displayData}) => {
