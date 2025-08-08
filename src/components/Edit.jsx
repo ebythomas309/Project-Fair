@@ -1,7 +1,7 @@
 //rafce
 import React, { useState, useEffect } from 'react'
 import { Modal, Button } from 'react-bootstrap'
-import SERVER_BASE_URL from '../services/serverURL'
+import SERVER_BASE_URL from '../services/serverUrl'
 import { updateProjectAPI } from '../services/allAPI'
 import { useContext } from 'react'
 import { editProjectContext } from '../contexts/ContextShare'
