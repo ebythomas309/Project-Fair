@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Collapse } from 'react-bootstrap'
 import uploadimg from '../assets/uploadimg.jpg'
 import { useEffect } from 'react';
-import SERVER_BASE_URL from '../services/serverUrl';
+import SERVER_BASE_URL from '../services/serverURL';
 import { updateProjectAPI, updateUserAPI } from '../services/allAPI';
 
 
